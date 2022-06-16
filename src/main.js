@@ -1,7 +1,7 @@
 import './main.css';
 console.log('Vanilla');
-import './app/pages/home.page';
-import './app/pages/posts.page';
+//import './app/pages/home.page';
+//import './app/pages/posts.page';
 import { Router } from '@vaadin/router';
 
 
