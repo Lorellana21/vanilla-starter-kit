@@ -19,5 +19,6 @@ Con estos pasos ya tengo preparado el proyecto para poder implementar la soluci�
 
 En los últimos tiempos cuando hablamos de tests E2E en aplicaciones web, no podemos dejar de hablar de **Cypress** que se está convirtiendo en el estándar de facto, sustituyendo a Selenium en muchos proyectos a nivel empresarial. Es el momento de instalar la dependencia de Cypress en el proyecto.
 
-
 Con Cypress también haré uso del API de **testing library**, tras instalar la dependencia. Además, Cypress realizará el cálculo de la cobertura y se mergeará con la cobertura de Jest.
+
+Para la implementación del routing en una aplicación vanilla nos podemos apoyar en la librería de ![Vaadin](https://vaadin.com/router)

@@ -17,8 +17,7 @@
     "report:cy:cov": "istanbul report --include cypress-coverage/coverage.json --dir cypress-coverage lcov html text",
     "cov:merge": "istanbul-merge --out coverage.json coverage/coveragefinal.json cypress-coverage/coverage-final.json",
     "report:cov": "istanbul report --include coverage.json --dir coverage lcov html text",
-    "test:all": "npm run clean:cov && npm run test && npm run test:ci && npm run cov:merge && npm run report:cov" 
-
+    "test:all": "npm run clean:cov && npm run test && npm run test:ci && npm run cov:merge && npm run report:cov"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -50,7 +49,6 @@
       "instrumented/**"
     ]
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -82,5 +80,8 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.1",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.4"
   }
 }
